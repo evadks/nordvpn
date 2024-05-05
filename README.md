@@ -1,6 +1,16 @@
 # nordvpn hw
 
+## Run
+
+### IDE
+
+- Open NordVpn.sln; 
+- Set Party.Presentation.CLI project as startup project
+- Run: F5 or Ctrl + F5
+
 ## Tasks
+
+[] update readme file how to build/run tests/run from cli
 
 [] configuration
 - [] extract configurartion info to appsettings
@@ -11,36 +21,36 @@
 - [] catching in CLI
 
 [] logging
-	[] add logging to file.
+- [] add logging to file.
 
 [] When querying (from gateway), save data
-	[] test case
-	[] repository implementation
+- [] test case
+- [] repository implementation
 
 [] automapper
-	[] from app to cli. serverDTO
+- [] from app to cli. serverDTO
 
 [] validation
-	...
-	[] FetchServersQuery - check for non-null values.
+- ...
+- [] FetchServersQuery - check for non-null values.
 
 [] cache
-	//consider where
+- //consider where
 
 [] Attach LiteDB
-	[] dbContext should be transient?
+- [] dbContext should be transient?
 
 [] autofixture
-	[v] use in tests
-	[] use automoqdata
+- [v] use in tests
+- [] use automoqdata
 
 [] polly
 
 [] make methods async
 
 [] CLI appearance
-	[] Console format providers
-	[] ViewModels in CLI?
+- [] Console format providers
+- [] ViewModels in CLI?
 
 [] make ServersListQueryHandler internal;
 
@@ -58,15 +68,15 @@
 [v] tests
 
 [v] test cases
-	[v] server_list
-	[v] server_list --france
-	[v] server_list --TCP
-	[v] server_list --local
+- [v] server_list
+- [v] server_list --france
+- [v] server_list --TCP
+- [v] server_list --local
 	
 [v] DI
 
 [v] console argument
-	custom solution
+- custom solution
 	
 [v] query from database (inmemory/repository)
 
