@@ -3,12 +3,12 @@
 ## Tasks
 
 [] configuration
-	[] extract configurartion info to appsettings
-	[] use options parameters to get parameters.
+- [] extract configurartion info to appsettings
+- [] use options parameters to get parameters.
 
 [] Exception handling
-	[] error boundaries/details
-	[] catching in CLI
+- [] error boundaries/details
+- [] catching in CLI
 
 [] logging
 	[] add logging to file.
